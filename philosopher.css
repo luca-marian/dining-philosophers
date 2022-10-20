@@ -1,4 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
 img {
     max-width: 100px;
     max-height: 500px;
 }
+
+.introduction{
+   
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./Resources/Images/background/patrick-fore-0gkw_9fy0eQ-unsplash.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.introduction-content{
+    font-family:'Playfair';
+    margin-top: 10px;
+    margin-bottom: 250px;
+    color: whitesmoke;
+    text-align:center;
+    font-size:x-large;
+}
+
+.introduction-content h1{
+    font-size: 4vmin;
+}
+
+.introduction-content p question{
+    font-size: 3vmin;
+}
+
+.philosopher{
+    font-size: large;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 1px auto;
+    border-radius: 5px;
+}
+
