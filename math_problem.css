@@ -1,44 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
 
-.my-card{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.title {
+  text-align: center;
+  font-size: 4vmin;
+  color: azure;
+}
+
+.line {
+  width: 250px;
+  height: 4px;
+  background: #fc036b;
+  margin: 1px auto;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 250px;
+  max-height: 500px;
+}
+
+section {
   width: 100vw;
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   align-items: flex-end;
   justify-content: center;
   background-size: cover;
-
 }
 
-.introduction{
-
-  background-image: url("./Resources/Images/background_math/michael-dziedzic-W6l35A_rxxU-unsplash.jpg");
+.title {
+  margin-top: 50px;
 }
 
-.definition{
+.introduction {
   background-image: url("./Resources/Images/background_math/joanna-kosinska-7ACuHoezUYk-unsplash.jpg");
 }
 
+.definition {
+  background-image: url("./Resources/Images/background_math/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
+}
 
-.bibliography{
+.dijkstra {
+  background-image: url("./Resources/Images/background_math/zoltan-tasi-O_mBXldZ0hc-unsplash.jpg");
+}
+
+.another-problem {
+  background-image: url("/Resources/Images/background_math/photo-boards-KZNTEn2r6tw-unsplash.jpg");
+}
+
+.bibliography {
   background-image: url("./Resources/Images/background_math/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
 }
 
-.code{
+.code {
   background-image: url("./Resources/Images/background_math/patrick-tomasso-QMDap1TAu0g-unsplash.jpg");
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-.bibliography-content{
-  font-family: Playfair;
+.dijkstra-content {
   margin-top: 10px;
   margin-bottom: 250px;
-  color:whitesmoke;
+  color: whitesmoke;
   text-align: center;
   font-size: x-large;
+  display: flex;
+}
+
+.bibliography-content {
+  margin-top: 10px;
+  margin-bottom: 250px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: x-large;
+}
+
+.definition-content {
+  margin-top: 10px;
+  margin-bottom: 250px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: x-large;
+}
+
+.another-problem-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.another-problem-content .consumer-producer .reader-writer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.another-problem .another-problem-content {
+  margin-top: 50px;
 }

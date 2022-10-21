@@ -79,30 +79,134 @@
                 <li><a class="dropdown-item" href="#">Sigmund Freud</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="my-card introduction">
-      <div class="introduction-content">
-        <h1>Problema filozofilor</h1>
+    <section class="introduction">
+      <div class="title">
+        <h1>Problema filosofilor</h1>
+        <div class="line"></div>
       </div>
-    </div>
+      <div class="introduction-content"></div>
+    </section>
 
-    <div class="my-card definition">
-      <div class="definition-content"></div>
-    </div>
+    <section class="definition">
+      <div class="title">
+        <h2>Ce este problema filosofilor?</h2>
+        <div class="line"></div>
+      </div>
 
-    <div class="my-card code">
+      <div class="definition-content">
+        <p>
+          În informatică, problema filosofilor este un exemplu des întâlnit în
+          proiectarea algoritmilor concurenți pentru a ilustra o problemele de
+          sincronizare și tehnicile de rezolvare ale acestora.
+        </p>
+        <p>
+          A fost formulată inițial de Edsger Dijkstra ca un exercițiu de examen
+          pentru studenți, prezentat în termeni de competițiea a calculatoarelor
+          pentru accesul unor periferice.
+        </p>
+        <p>
+          Problema filosofilor afirmă că K filosofi stăteau în jurul unei mese
+          circulare, fiecare având un loc bine stabilit. Există o furculiță
+          între fiecare farfurie. Felul de mâncare servit este un fel de
+          spaghete care trebuie consumate cu două furculițe. Un filosof poate
+          doar să gândească și să mănânce alternativ.Mai mult de atât, un
+          filosof își poate mânca spaghetele doar atunci când are atât furculița
+          din stânga, cât și din dreapta. Astfel, două furculițe vor fi
+          disponibile doar atunci când cei mai apropiați vecini ai lor se
+          gândesc, nu mănâncă. După ce un filosof individual termină de mâncat,
+          va pune jos ambele furculițe. Problema este cum să proiectăm un regim
+          (un algoritm concurent) astfel încât niciun filosof să nu moară de
+          foame; adică, fiecare poate continua să alterneze pentru totdeauna
+          între mâncare și gândire, presupunând că niciun filosof nu poate ști
+          când alții ar putea dori să mănânce sau să gândească (o problemă de
+          informații incomplete).
+        </p>
+      </div>
+    </section>
+
+    <section class="code">
+      <div class="title"></div>
       <div class="code-content"></div>
-    </div>
+    </section>
 
-    <div class="my-card bibliography">
-      <h2>Bibliografie</h2>
+    <section class="dijkstra">
+      <div class="title">
+        <h2>Dijkstra - inventatorul problemei prânzului filosofilor</h2>
+        <div class="line"></div>
+      </div>
+      <div class="dijkstra-content">
+        <ul>
+          <li>
+            Edger Wybe Dijkstra (11 Mai 1930 - 6 August 2002) a fost un
+            informatician olandez, programator, inginer de software și un eseist
+            de ștință. El a castigat în 1972 Premiul Turing pentru munca sa
+            fundamentală în dezvoltarea limbajelor de programare.
+          </li>
+          <li>
+            Printre contribuțiile sale în informatică se numără algoritmul celei
+            mai scurte căi, cunoscut ca Algoritumul lui Dijkstra,
+            <cite>„The Shunting Yard Algorithn”</cite>, sistemul de
+            multiprogramare, algoritmul bancherului și construcția semaforului
+            pentru coordonarea multiplelor procese și programe. Un alt concept
+            al lui Dijkstra în domeniul programării distribuite este
+            auto-stabilizarea - o cale alternativă de asigurare a fiabilității
+            sistemului.
+          </li>
+        </ul>
+
+        <div class="img-dijkstra">
+          <img
+            src="/Resources/Images/icon_philosopher/Edsger_Wybe_Dijkstra.jpg"
+            alt="O imagine a lui Dijkstra"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="another-problem">
+      <div class="title">
+        <h2>Alte probleme matematice cunoscute</h2>
+        <div class="line"></div>
+      </div>
+      <div class="another-problem-content">
+        <div class="card consumer-producer">
+          <div class="card-body">
+            <h5 class="card-title">Problema consumator - producător</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+          </div>
+        </div>
+
+        <div class="card reader-writer">
+          <div class="card-body">
+            <h5 class="card-title">Problema cititorilor și scriitorilor</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Problema cititorilor și scriitorilor
+            </h6>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bibliography">
+      <div class="title">
+        <h2>Bibliografie</h2>
+        <div class="line"></div>
+      </div>
       <div class="bibliography-content">
         <ul>
           <li class="ack">
@@ -114,10 +218,10 @@
           <li class="ack">
             https://www.javatpoint.com/os-dining-philosophers-problem
           </li>
-          <li class="ack"></li>
+          <li class="ack">https://en.wikipedia.org/wiki/Edsger_W._Dijkstra</li>
         </ul>
       </div>
-    </div>
+    </section>
 
     <footer
       class="text-center text-white mt-auto"
@@ -126,7 +230,7 @@
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
-        <section class="mb-4">
+        <div class="mb-4">
           <!-- Facebook -->
           <a
             class="btn btn-outline-light btn-floating m-1"
@@ -150,7 +254,7 @@
             role="button"
             ><i class="fab fa-instagram"></i
           ></a>
-        </section>
+        </div>
         <!-- Section: Social media -->
       </div>
       <!-- Grid container -->
