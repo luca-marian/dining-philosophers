@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.my-card{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: cover;
+
+}
+
+.introduction{
+
+  background-image: url("./Resources/Images/background_math/michael-dziedzic-W6l35A_rxxU-unsplash.jpg");
+}
+
+.definition{
+  background-image: url("./Resources/Images/background_math/joanna-kosinska-7ACuHoezUYk-unsplash.jpg");
+}
+
+
+.bibliography{
+  background-image: url("./Resources/Images/background_math/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+}
+
+.code{
+  background-image: url("./Resources/Images/background_math/patrick-tomasso-QMDap1TAu0g-unsplash.jpg");
+}
+
+ul{
+  list-style: none;
+}
+
+.bibliography-content{
+  font-family: Playfair;
+  margin-top: 10px;
+  margin-bottom: 250px;
+  color:whitesmoke;
+  text-align: center;
+  font-size: x-large;
+}
