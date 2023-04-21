@@ -14,9 +14,10 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #a1887f">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-opacity-75 fixed-top py-lg-3 " >
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img
@@ -38,8 +39,8 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Acasă</a
@@ -60,148 +61,172 @@
               >
                 Filosofi
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" href="philosopher.html">
                 <li>
-                  <a class="dropdown-item" href="#section_arthur_schopenhauer"
+                  <a class="dropdown-item" href="philosopher.html#section_arthur_schopenhauer"
                     >Arthur Schopenhauer</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#section_albert_camus"
+                  <a class="dropdown-item" href="philosopher.html#section_albert_camus"
                     >Albert Camus</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#section_baruch_spinoza"
+                  <a class="dropdown-item" href="philosopher.html#section_baruch_spinoza"
                     >Baruch Spinoza</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#section_freiedrich_nietzsche"
+                  <a class="dropdown-item" href="philosopher.html#section_freiedrich_nietzsche"
                     >Friedrich Nietzsche</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#section_imanuel_kant"
+                  <a class="dropdown-item" href="philosopher.html#section_imanuel_kant"
                     >Imanuel Kant</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#section_goethe"
+                  <a class="dropdown-item" href="philosopher.html#section_goethe"
                     >Johann Wolfgang von Goethe</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#section_sigmund_freud"
+                  <a class="dropdown-item" href="philosopher.html#section_sigmund_freud"
                     >Sigmund Freud</a
                   >
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
+           
           </ul>
         </div>
       </div>
     </nav>
 
-    <h1>Prânzul filosofilor</h1>
+    
 
-    <div>
-      <div class="philosopers-icon">
-        <img
-          src="./Resources/Images/icon_philosopher/Arthur_Schopenhauer.png"
-          alt="Image"
-          href="/philosopher.html"
-        />
-      </div>
+    <div class="masa-filosofilor">
+      <!-- Philosopher icons -->
 
-      <div class="philosopers-icon">
-        <img
-          src="./Resources/Images/icon_philosopher/albert_camus.jpg"
-          alt="Image"
-          href="/philosopher.html"
-        />
-      </div>
+      <a href="philosopher.html#section_freiedrich_nietzsche">
+        <div class="philosopher-icon nietzsche bounce" > </div>
+      </a>
+      
+      <a href="philosopher.html#section_arthur_schopenhauer">
+        <div class="philosopher-icon schopenhauer bounce"> </div>
+      </a>
+      
+      <a href="philosopher.html#section_goethe">
+        <div class="philosopher-icon goethe bounce" ></div>
+      </a>
 
-      <div class="philosopers-icon">
-        <img
-          src="./Resources/Images/icon_philosopher/baruch_spinoza.jpg"
-          alt="Image"
-          href="/philosopher.html"
-        />
-      </div>
+      <a href="philosopher.html#section_albert_camus">
+        <div class="philosopher-icon camus bounce" ></div>
+      </a>
 
-      <div class="philosopers-icon">
-        <img
-          src="./Resources/Images/icon_philosopher/Friedrich_Nietzsche.jpg"
-          alt="Image"
-          href="/philosopher.html"
-        />
-      </div>
+      <a href="philosopher.html#section_imanuel_kant">
+       <div class="philosopher-icon kant bounce"></div>
+      </a>
+     
+      <a href="philosopher.html#section_sigmund_freud">
+        <div class="philosopher-icon freud bounce" ></div>
+      </a>
 
-      <div class="philosopers-icon">
-        <img
-          src="./Resources/Images/icon_philosopher/imanuel_kant.jpg"
-          alt="Image"
-          href="/philosopher.html"
-        />
-      </div>
+      <a href="philosopher.html#section_baruch_spinoza">
+        <div class="philosopher-icon spinoza bounce" ></div>
+      </a>
+  
+      <div class="pasta-icon goethe" ></div>
+      <div class="pasta-icon spinoza" ></div>	      
+      <div class="pasta-icon nietzsche" ></div>
+      <div class="pasta-icon freud" ></div>	
+      <div class="pasta-icon kant" ></div>	
+      <div class="pasta-icon camus" ></div>	
+      <div class="pasta-icon schoepenhauer" ></div>	
 
-      <div class="philosopers-icon">
-        <img
-          src="./Resources/Images/icon_philosopher/Goethe.jpg"
-          alt="Image"
-          href="/philosopher.html"
-        />
-      </div>
+      <div class="fork-icon goethe-spinoza"></div>
 
-      <div class="philosopers-icon">
-        <img
-          src="./Resources/Images/icon_philosopher/sigmund_freud.jpg"
-          alt="Image"
-          href="/philosopher.html"
-        />
-      </div>
+      <div class="fork-icon spinoza-nietzsche"></div>
 
-      <div class="philosopers-icon">
-        <img
-          src="./Resources/Images/circle-table.png"
-          alt="Image"
-          href="/philosopher.html"
-        />
-      </div>
+      <div class="fork-icon nietzsche-freud"></div>
+
+      <div class="fork-icon freud-kant"></div>
+
+      <div class="fork-icon kant-camus"></div>
+
+      <div class="fork-icon camus-schoepenhauer"></div>
+
+      <div class="fork-icon schoepenhauer-goethe"></div>
+
+          
+      <!-- Circular table -->
+      <table class="masa">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-
+  
     <footer
-      class="text-center text-white mt-auto"
-      style="background-color: #a1887f"
-    >
+      class="text-center text-white mt-auto bg-dark bg-opacity-75">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
         <section class="mb-4">
           <!-- Facebook -->
           <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#"
+            class="btn btn-outline-light btn-floating m-1 disabled"
+            href="https://www.facebook.com/"
             role="button"
+            
             ><i class="fab fa-facebook-f"></i
           ></a>
 
           <!-- Google -->
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href=""
+            href="https://en.wikipedia.org/wiki/Dining_philosophers_problem"
             role="button"
             ><i class="fab fa-google"></i
           ></a>
 
           <!-- Instagram -->
           <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#"
+            class="btn btn-outline-light btn-floating m-1 disabled"
+            href="https://www.instagram.com/"
             role="button"
             ><i class="fab fa-instagram"></i
           ></a>
@@ -211,8 +236,8 @@
       <!-- Grid container -->
 
       <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: #a1887f">
-        © 2022 Copyright:
+      <div class="text-center p-3 bg-dark bg-opacity-75">
+        © 2023 Copyright:
         <a class="text-white">Luca Paula</a>
       </div>
       <!-- Copyright -->
