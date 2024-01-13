@@ -1,0 +1,180 @@
+
+/* html {
+  scroll-behavior: smooth;
+} */
+ 
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  */
+
+
+
+/* body,
+html {
+  overflow-x: hidden;
+} */
+
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+}
+
+h3, h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;      
+  font-size: 20px;
+  color: #111;
+}
+.container {
+  padding: 80px 120px;
+}
+
+.title {
+  text-align: center;
+  font-size: 4vmin;
+  color: azure;
+}
+
+.line {
+  width: 250px;
+  height: 4px;
+  background: #fc036b;
+  margin: 1px auto;
+  border-radius: 5px;
+}
+
+.img-dijkstra {
+  max-width: 700px;
+  max-height: 700px;
+}
+
+/* section {
+  width: 100vw;
+  height: 100vh;
+  /* display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+} */
+
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 0.9;
+}
+
+.person:hover {
+  border-color: #f1f1f1;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+.introduction {
+  background-image: url("./Resources/Images/background_math/joanna-kosinska-7ACuHoezUYk-unsplash.jpg");
+}
+
+.definition {
+  background-image: url("./Resources/Images/background_math/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
+}
+
+.dijkstra {
+  background-image: url("./Resources/Images/background_math/zoltan-tasi-O_mBXldZ0hc-unsplash.jpg");
+}
+
+.another-problem {
+  background-image: url("/Resources/Images/background_math/photo-boards-KZNTEn2r6tw-unsplash.jpg");
+ 
+}
+
+.bibliography {
+  background-image: url("./Resources/Images/background_math/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+ 
+}
+
+.code {
+  background-image: url("./Resources/Images/background_math/patrick-tomasso-QMDap1TAu0g-unsplash.jpg");
+
+}
+
+/* ul {
+  list-style: none;
+} */
+
+
+p{
+  /* text-align: justify; */
+  margin: 30px;
+}
+
+
+
+
+.bibliography-content {
+  margin-top: 10px;
+  margin-bottom: 250px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: x-large;
+}
+
+
+
+
+.another-problem-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.another-problem-content .consumer-producer .reader-writer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+
+
+.consumer-producer, .reader-writer{
+  margin: 3%;
+  background-color: rgba(255,255,255,0.8);
+}
+
+#dijsktra {
+ padding: auto;
+}
+
+#gif-anim{
+  padding: 3%;
+}
+
+#code{
+  background-image: url("./Resources/Images/background_math/robin-schreiner-7y4858E8PfA-unsplash.jpg");
+  background-size: cover;
+  /* background-position: center; */
+  padding: 3%;
+}
+
+#another-problems{
+  background-image: url("./Resources/Images/background_math/backround_1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 3%;
+}
+
+#definition{
+  background-image: url("./Resources/Images/background/philo.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 3%;
+}
