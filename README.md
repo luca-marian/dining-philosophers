@@ -1,1 +1,1 @@
-Crearea unui atestat având ca tema principală problema din informatică Prânzul filozofilor.
+Simple pages to test my knowledge in HTML, CSS, and Bootstrap 5.
